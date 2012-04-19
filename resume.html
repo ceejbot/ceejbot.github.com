@@ -1,0 +1,315 @@
+<!DOCTYPE html>  
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>resume</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+/* 
+   This document has been created with Marked.app <http://markedapp.com>, Copyright 2011 Brett Terpstra
+   Please leave this notice in place, along with any additional credits below.
+   ---------------------------------------------------------------
+   Some simple Github-like styles, with syntax highlighting CSS via Pygments (requires custom processor).
+   via https://github.com/alampros/Docter
+*/
+html {
+	margin:0;
+	padding:1em;
+}
+body{
+    -webkit-font-smoothing: antialiased;
+	font: 13.34px helvetica,arial,freesans,clean,sans-serif;
+	line-height: 1.4em;
+	color: #333;
+	border: none;
+	line-height: 1.5;
+	margin: 0 auto;
+    max-width: 900px; 
+	text-align:left;
+	color:black;
+    background:#fff;
+}
+
+img {max-width:100%}
+
+@media screen {
+    #wrapper { padding:9px; background:#F8F8F8;	border:1px solid #E9E9E9;}    
+    body.inverted, .inverted #wrapper {
+        color: #eee;
+        background:#333;
+        border-color:#555
+    }
+    .inverted h2 {
+        border-color:#555
+    }
+    .inverted hr {
+        border-color: #777;
+        border-width: 1px !important;
+    }
+}
+h1 {
+	font-size: 170%;
+	border-top: 4px solid #aaa;
+	padding-top: .5em;
+	margin-top: 1.5em;
+}
+
+h1:first-child {
+	margin-top: 0 !important;
+	padding-top: .25em !important;
+	border-top: none !important;
+}
+
+h2 {
+	font-size: 150%;
+	margin-top: 1.5em;
+	border-top: 4px solid #e0e0e0;
+	padding-top: .5em;
+}
+
+h3 {
+	margin-top: 1em;
+}
+
+p {
+	margin: 1em 0!important;
+	line-height: 1.5em!important;
+}
+
+pre, code {
+    font: 12px 'Bitstream Vera Sans Mono','Courier',monospace;
+}
+pre {
+    -webkit-box-shadow: rgba(0, 0, 0, 0.0664062) 0px 1px 2px 0px inset;
+    background-color: #EEE;
+    border: #ddd 1px solid;
+    color: #444;
+    display: block;
+    margin: 12px 0;
+    overflow: auto;
+    padding: 5px;
+    white-space: pre;
+    max-width:100%;
+    overflow:auto;
+}
+code {
+    background-color: ghostWhite;
+    color: #444!important;
+    padding: 0 .2em;
+    border: 1px solid #DEDEDE;
+}
+pre code {
+    padding: 0!important;
+    font-size: 12px!important;
+    background-color: #EEE!important;
+    border: none!important;
+    overflow:visible;
+}
+a, a code {
+	color: #4183C4;
+	text-decoration:none;
+}
+
+table td {
+	border-bottom: 1px solid #DDD!important;
+	padding: .2em 1em!important;
+}
+
+.shadow{
+	-webkit-box-shadow:0 5px 15px #000;
+	-moz-box-shadow:0 5px 15px #000;
+	box-shadow:0 5px 15px #000;		
+}
+
+
+.c{color:#998;font-style:italic;}
+.err{color:#a61717;background-color:#e3d2d2;}
+.k{font-weight:bold;}
+.o{font-weight:bold;}
+.cm{color:#998;font-style:italic;}
+.cp{color:#999;font-weight:bold;}
+.c1{color:#998;font-style:italic;}
+.cs{color:#999;font-weight:bold;font-style:italic;}
+.gd{color:#000;background-color:#fdd;}
+.gd .x{color:#000;background-color:#faa;}
+.ge{font-style:italic;}
+.gr{color:#a00;}
+.gh{color:#999;}
+.gi{color:#000;background-color:#dfd;}
+.gi .x{color:#000;background-color:#afa;}
+.go{color:#888;}
+.gp{color:#555;}
+.gs{font-weight:bold;}
+.gu{color:#800080;font-weight:bold;}
+.gt{color:#a00;}
+.kc{font-weight:bold;}
+.kd{font-weight:bold;}
+.kn{font-weight:bold;}
+.kp{font-weight:bold;}
+.kr{font-weight:bold;}
+.kt{color:#458;font-weight:bold;}
+.m{color:#099;}
+.s{color:#d14;}
+.na{color:#008080;}
+.nb{color:#0086B3;}
+.nc{color:#458;font-weight:bold;}
+.no{color:#008080;}
+.ni{color:#800080;}
+.ne{color:#900;font-weight:bold;}
+.nf{color:#900;font-weight:bold;}
+.nn{color:#555;}
+.nt{color:#000080;}
+.nv{color:#008080;}
+.ow{font-weight:bold;}
+.w{color:#bbb;}
+.mf{color:#099;}
+.mh{color:#099;}
+.mi{color:#099;}
+.mo{color:#099;}
+.sb{color:#d14;}
+.sc{color:#d14;}
+.sd{color:#d14;}
+.s2{color:#d14;}
+.se{color:#d14;}
+.sh{color:#d14;}
+.si{color:#d14;}
+.sx{color:#d14;}
+.sr{color:#009926;}
+.s1{color:#d14;}
+.ss{color:#990073;}
+.bp{color:#999;}
+.vc{color:#008080;}
+.vg{color:#008080;}
+.vi{color:#008080;}
+.il{color:#099;}
+
+.poetry pre {
+    font-family:Georgia, Garamond, serif !important;
+    font-style:italic;
+    font-size:110% !important;
+    line-height:1.6em;
+    display:block;
+    margin-left:1em;
+}
+
+.poetry pre code {
+    font-family:Georgia, Garamond, serif !important;
+}
+
+sup,sub,a.footnote {
+	font-size: 1.4ex;
+	height: 0;
+	line-height: 1;
+	vertical-align: super;
+	position: relative;
+}
+sub {
+    vertical-align: sub;
+    top: -1px;
+}
+
+@media print {
+    body {
+        background:#fff;
+    }
+    img, pre, blockquote, table, figure {
+        page-break-inside: avoid
+    }
+    .footnotes { page-break-before: always }
+    #wrapper {
+        background: #fff;
+        border:none;
+    }
+    code {
+        background-color: #fff;
+        color: #444!important;
+        padding: 0 .2em;
+        border: 1px solid #DEDEDE;
+    }
+    pre code {
+        background-color: #fff!important;
+        overflow:visible;
+    }
+    pre {
+        background: #fff;
+    }
+}
+</style>
+
+</head>
+<body class="normal">
+  <div id="wrapper">
+      <h1 id="cjsilverio">C J Silverio</h1>
+
+<p>ceejceej@gmail.com
+ceej@ceejbot.com
+650&#8211;853&#8211;0780 (landline)
+650&#8211;575&#8211;3428 (cell; preferred)</p>
+
+<h2 id="missionstatement">Mission Statement</h2>
+
+<p>Seeking technically involving work on a project that satisfies its users and has a future.</p>
+
+<h2 id="professionalskills">Professional skills</h2>
+
+<p>Track record of shipping and maintaining many projects over the long term. Self-motivated and self-directed but will happily integrate with larger teams. Can write well and leave a trail of readable documentation behind. </p>
+
+<p>Languages, from most recent to least recent: Javascript, Ruby, Python, Java, C, Objective-C, C++, Perl, Tcl. </p>
+
+<p>Strong technical writing skills.</p>
+
+<p>You can find code samples for recent Ruby &amp; Javascript work on <a href="https://github.com/ceejbot">Github</a>.</p>
+
+<h2 id="history">History</h2>
+
+<h3 id="sabbatical">Sabbatical</h3>
+
+<p>April 2009 - present<br/>
+Chief Layabout</p>
+
+<p>Hobby projects include a large-scale journaling community system to replace LiveJournal with a modern close-to-single-page web application. Some components of the latter project are published as open-source on my Github account. Server side: Padrino, Ohm, redis, Slim templates, Less, node.js, beanstalkd, Elastic Search, Risky (riak object-document mapper), riak. Client side: Davis.js app framework, Ender modules for DOM manipulation, the mote.js variant of Handlebar templates, a custom model library.</p>
+
+<h3 id="dangerresearchinclatermicrosoft">Danger Research, Inc, later Microsoft</h3>
+
+<p>May 2000 - April 2009<br/>
+Senior Software Engineer</p>
+
+<p>Worked on both the server &amp; client sides of the Hiptop handheld platform, a cellphone &amp; GPRS data device &amp; one of the earliest smartphones. Departed in 2009 when Microsoft canceled work on Hiptop.</p>
+
+<p>2002&#8211;2009: Device applications in Java. Did user interface design and implementation. Developed under CPU &amp; memory constraints. Rewrote the address book application to increase performance while reducing memory footprint. Architected &amp; implemented an MMS (Multimedia Messaging Service). Implemented an MP3 and video player app with features like on-the-fly playlist management, m3u playlist import, and smooth integration with the cellphone.</p>
+
+<p>2001: As sole engineer, designed &amp; implemented the Hiplog mobile blogging system in 2 months, in Python with Medusa. The site ran without incident or intervention for 3 years before being superseded by a PHP site written by external contractors. Features a flexible configuration that can split off services onto separate hosts to handle increasing load. </p>
+
+<p>2000&#8211;2001: Implemented the first version of Danger&#8217;s web applications in Tcl under AOLServer. As technical lead of a small team, reimplemented the apps as a PHP front-end communicating via XML-RPC to a Perl database proxy. Wrote the email, calendar, and address book applications, as well as a framework for the other applications. Also implemented pieces of the proxy layer that mediates communications among the database, the web applications, and the Danger device. This was an early-era web application with minimal Javascript interaction; the hot technology of the time was CSS layout.</p>
+
+<h3 id="webtvmicrosoft">WebTV/Microsoft</h3>
+
+<p>Sept 1997 - May 2000<br/>
+Software engineer. Service-side application development in C. Designed &amp; implemented management applications for the WebTV client. Email, instant messaging, WebTV device settings. Also wrote on-line help.</p>
+
+<h3 id="generalmagic">General Magic</h3>
+
+<p>Sept 1993 - June 1997<br/>
+Software engineer, Magic Cap development team, developing in an Objective-C-like object-oriented language. Technical writer on the <em>Magic Cap Class &amp; Method Reference</em>, intended for application developers. The technical writing job required me to read operating system &amp; framework source, understand it, and document the aspects of it of interest to third-party developers.</p>
+
+<h3 id="silicongraphics">Silicon Graphics</h3>
+
+<p>Feb 1990 - May 1993<br/>
+Technical writer, mostly writing about developer tools and compilers.</p>
+
+<h2 id="education">Education</h2>
+
+<p>BA Mathematics, Salem State College, MA.<br/>
+Mathematics masters program, UC Berkeley.</p>
+
+<h2 id="hobbies">Hobbies</h2>
+
+<p>Powerlifting &amp; weightlifting.<br/>
+Novel-writing. Attended the Clarion West Science Fiction writing workshop in summer 1997.</p>
+
+<p>18 April 2012 </p>
+
+    </div>
+</body>
+</html>
