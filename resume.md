@@ -1,8 +1,8 @@
 # C J Silverio
 
-ceejceej@gmail.com 
-ceej@ceejbot.com 
-650-853-0780 (landline) 
+ceejceej@gmail.com  
+ceej@ceejbot.com  
+650-853-0780 (landline)  
 650-575-3428 (cell; preferred)
 
 ## Mission Statement
@@ -58,7 +58,7 @@ Mathematics masters program, UC Berkeley.
 
 ## Hobbies
 
-Powerlifting & weightlifting.  
+Weightlifting. Powerlifting total is over 600 pounds.  
 Novel-writing. Attended the Clarion West Science Fiction writing workshop in summer 1997.
 
 18 April 2012 
