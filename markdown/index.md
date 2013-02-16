@@ -28,12 +28,12 @@ Senior Software Engineer
 Server infrastructure engineer working on one of the largest node.js deployments on a variety of tasks. Wrote a simple web application framework in support of a customer-facing administrative portal. Currently working on a clustering project to enable the Voxer service to run in many independent clusters. Skills exercised daily: Node.js, node.js at scale, riak, redis, nosql, debugging distributed processes, understanding large and tangled existing codebases. Some work open-sourced: [recurring](https://github.com/ceejbot/recurring) & [keep-alive-agent](https://github.com/ceejbot/keep-alive-agent).
 
 ### Sabbatical
-April 2009 - present  
+April 2009 - May 2012    
 Chief Layabout
 
 Hobby projects include a large-scale journaling community system to replace LiveJournal with a modern close-to-single-page web application. Some components of the latter project are published as open-source on my Github account. Ruby with Sinatra, node.js, redis, couchdb, browser-side work through backbone.js and my own backbone.js replacement (written when I became frustrated with typical backbone boilerplate).
 
-### Danger Research, Inc, later Microsoft
+### Danger Research, Inc, acquired by Microsoft
 May 2000 - April 2009  
 Senior Software Engineer
 
@@ -45,7 +45,7 @@ Worked on both the server & client sides of the Hiptop handheld platform, a cell
 
 2000-2001: Implemented the first version of Danger's web applications in Tcl under AOLServer. As technical lead of a small team, reimplemented the apps as a PHP front-end communicating via XML-RPC to a Perl database proxy. Wrote the email, calendar, and address book applications, as well as a framework for the other applications and an early-era simple ORM. Also implemented pieces of the proxy layer that mediates communications among the database, the web applications, and the Danger device. This was an early-era web application with minimal Javascript interaction; the hot technology of the time was CSS layout.
 
-### WebTV/Microsoft
+### WebTV, acquired by Microsoft
 Sept 1997 - May 2000  
 Software engineer. Service-side application development in C. Designed & implemented management applications for the WebTV client. Email, instant messaging, WebTV device settings. Also wrote on-line help.
 
