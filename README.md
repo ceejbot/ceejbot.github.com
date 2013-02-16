@@ -1,0 +1,1 @@
+Github says that every repo should have a readme. This is a readme for the ceejbot repo. It suggests that you probably want to look at [ceej's resume]() instead of this page. Or maybe [ceej's repo list](https://github.com/ceejbot?tab=repositories), which is probably more informative than any resume.
