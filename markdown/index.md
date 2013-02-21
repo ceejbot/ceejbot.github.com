@@ -17,7 +17,7 @@ Languages, from most recent to least recent: Javascript in node.js, Javascript i
 
 Strong technical writing skills.
 
-You can find code samples for recent Ruby & Javascript work on [Github](https://github.com/ceejbot).
+You can find code samples for recent Node.js & Javascript work on [Github](https://github.com/ceejbot).
 
 ## History
 
@@ -67,4 +67,4 @@ Mathematics masters program, UC Berkeley.
 Weightlifting. Powerlifting total is over 600 pounds.  
 Novel-writing. Attended the Clarion West Science Fiction writing workshop in summer 1997.
 
-16 February 2013
+20 February 2013
